@@ -23,10 +23,7 @@ Sure thing, just follow the steps below:
 
 Calm down, you can automate it for more sites using Bash to feed your URL's
 
-1. Create a textfile (sites.txt) containing all your URL's, 1 per line:
-    http://mysite.com 
-    https://www.anothersite.com
-    http://andyetanother.com/intranet
+1. Create a textfile (sites.txt) containing all your URL's, 1 per line
 
 2. Use bash to run the script on every of the sites with this command: 
  `for i in 'cat sites.txt'; do src/wp-bulk-psw-change.js $i; done`
