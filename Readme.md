@@ -30,10 +30,14 @@ Calm down, you can automate it for more sites using Bash to feed your URL's
 
 ## FAQ
 Q: Why not use [WP-CLI](http://wp-cli.org) for changing passwords?
+
 A: Well...  you should! But unfortunately it's not always available on your hosting.
 
 Q: Which WordPress versions does it work with?
+
 A: I've only tested it with 4.9.x so far.
 
 Q: Does it also work with captcha protected logins?
+
 A: No, it's just a login script, not Skynet. 
+
